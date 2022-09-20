@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   #get '/boa_noite', to: 'home#boa_noite'
   #get '/raoni', to: 'home#raoni'
   #get '/fff', to: 'home#fff'
+  get '/calc', to: 'home#calc'
+  get '/calc/', to: 'home#calc'
+  post '/calc/', to: 'home#calc'
 end
